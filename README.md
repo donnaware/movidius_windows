@@ -10,7 +10,8 @@ The first step is to download one of the standard windows apps I have already co
 That app will allow you to configure and test your stick and make sure the right drivers are installed. 
 
 First plug your stick into a USB port on your computer, it will go through an install, if that worked right you should 
-see this ![USB Device properties](images/installed2.jpg) 
+see this 
+![USB Device properties](images/installed2.jpg) 
 
 and when you go to computer->manage->device manager you should see an item in there like this 
 ![USB Device properties](images/devices1.jpg)
@@ -109,7 +110,7 @@ Now click on the button "load graph" and you show see this:
 Now we are ready to recognize stuff. Flip over to the tab labeled "Image" and you will see this screen:
 ![graph loaded](images/image1.jpg)
 
-If you click on the button labeled "run" at the top bar or in the tab area then the result shold be
+If you click on the button labeled "run" at the top bar or in the tab area then the result shold be:
 ![graph loaded](images/image2.jpg)
 
 Yeah, the Movidius got the answer right !!! yippee.  For this test program you can load different pictures in
@@ -118,7 +119,15 @@ into the clipboard and past it in.  the picture on the left will show the origin
 the picture on the right is that picture re-sampled down. For this demo it will only be able to use 227 x 227 
 pixel resolution so it will re-size everything to that.
 
+You will see another tab labeled "Classification" that is a table of all the categories it can recognize
+and will show you the probabillity on each. 
+![graph loaded](images/probability1.jpg)
 
+If you click on the heading "Probability" it will sort by probability lowest to highest, if you click it 
+again it will sort highest to lowest. 
+![graph loaded](images/probability2.jpg)
+
+Now just for fun, let's pick a picture off of Google Images just to see how Movidius does.
 
 
 
