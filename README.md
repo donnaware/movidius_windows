@@ -21,6 +21,7 @@ Right click on the Winusb device and display properties, the hardware ID;s shoul
 If all that worked OK, then download the test alexnet0 test app, that app uses a pre-compiled graph file
 which contains the "smarts" of the app. You can compile graph files yourself if you go to the caffe sub-folder of this git.
 
+
 ## Step 2:
 Now that you have the Movidius device discovered by Windows, a word about how this little puppy works. It is really two USB devices
 The first device is the boot device, the sole purpose of which is to upload the firmware (MvNCAPI.mvcmd) up into the Myriad2
