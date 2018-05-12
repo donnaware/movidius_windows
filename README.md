@@ -10,8 +10,8 @@ The first step is to download one of the standard windows apps I have already co
 That app will allow you to configure and test your stick and make sure the right drivers are installed. 
 
 First plug your stick into a USB port on your computer, it will go through an install, if that worked right you should 
-see this when you go to computer->manage->device manager 
-![USB Device properties](images/devices1.jpg)
+see this ![USB Device properties](images/installed2.jpg) and when you go to computer->manage->device manager you should
+see an item in there like this ![USB Device properties](images/devices1.jpg)
 
 Right click on the Winusb device and display properties, the hardware ID;s should be these 
 ![USB Device properties](images/properties1.jpg)
