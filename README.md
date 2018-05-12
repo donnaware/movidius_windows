@@ -15,3 +15,6 @@ see this when you go to computer->manage->device manager
 
 Right click on the Winusb device and display properties, the hardware ID;s should be these 
 ![USB Device properties](images/properties1.jpg)
+
+If all that worked OK, then download the test Alexnet app 
+
