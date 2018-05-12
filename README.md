@@ -32,4 +32,65 @@ booter upper and plugged in a new thing, you will here that "doo dink" sound tha
 a USB device.  You may wonder, why didn't they just make a compound USB device?  Beats the heck out of me, ask the Movidius guys,
 I am sure there is a good explanation, probably has something to do with Linux or something.
 
+But anyhow, when you run the alexnet0.exe and click on open the first time the Movidius is plugged in you will get this error,
+but don't panic, we only have to go through this rig-a-ma-roll the first time you plug the Movidius into your computer.
+![alexnet open first time](images/notconnected1.jpg)
+
+and you will also notice that now Windows thinks you plugged in a new device, no big deal, we will let Windows do it's thing
+here for a minute. When it's done gyrating you will get this error message. 
+![alexnet open first time](images/noinstalled.jpg)
+
+That's OK, we are going to fix it now. Go to good old computer->manage->device manager and you should see this 
+device in there: ![vsc loopback device](images/vscloopback.jpg)
+
+Notice the devices labeled "VSC Loopback Device", that is what Windows thinks it is right now, don't ask me why.
+now just right click on that thing and pick "Update Device Driver" and you should get this dialog box:
+![browse device](images/browse1.jpg)
+
+Pick the SECOND Option labeled "Browse my computer for driver software and you will get this:
+![browse device](images/browse2.jpg), again pick the second option that says "Let me pick from a list of device drivers on my computer".
+
+Now you will see this: ![browse device](images/browse3.jpg)
+
+Picke the Universal Serial Bus devices option. Now you will get this screen: ![browse device](images/browse4.jpg)
+on my computer there was just the one choice, if you have others, ignore those and pick "WinUSB Device" from
+the list and click next. You will get a warning message: ![warning will robinson](images/warning.jpg) 
+just click Yes (but don't blame me if disaster strikes, proceed at your own risk !).
+
+It will re-install the device using this new driver and if all goes well you get this: ![installed](images/installed2.jpg) 
+
+To double check that all this crap worked right, go back to alexnet0.exe and try open again. If it worked right,
+you should get this: ![opened ok](images/opened2.jpg) 
+
+You may need to unplug the Movidius stick and close the alexnet0.exe and plug Movidius back in and start the program again.
+If that does not work you may need a reboot.
+
+Assuming things worked and you got the "NCS Device opened normally."  message in alexnet0.exe program, then you can
+double check this new device and go to ye ole computer->manage->device manager and look for this, select the 
+WinUsb Device, right click and pick properties and now you can check the Hardware ID's and see that they changed:
+![USB Device properties](images/devices2.jpg)
+
+You can see now the new ID's are (VID=03E7 PID=F63B) a different device, this is the Myriad2 device.
+If you click close it will close that one and the booter upper one will come back.
+
+As another check, whilst the Movidius os Open, you can click on "status" button and you should see this:
+![Movidius waiting](images/status.jpg), which just means it is waiting for the graph file to be uploaded.
+
+WHEWY!, that was hard work, but if all that went well, you now should have a Movidius Stick working on your PC.
+From now on, you don't have to go through that junk. From now on, you should be able to just plug the Movidius
+into your PC and open the alexnet0.exe or other Windows apps from this git and it should work straight away
+without all the fiddling.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
