@@ -127,22 +127,20 @@ If you click on the heading "Probability" it will sort by probability lowest to 
 again it will sort highest to lowest. 
 ![graph loaded](images/probability2.jpg)
 
-Now just for fun, let's pick a picture off of Google Images just to see how Movidius does.
+Now just for fun, let's pick a picture off of Google Images just to see how Movidius does. Go to google.com 
+and click on images and then put in "guitar", when I did that I got this
+![graph loaded](images/guitarimages.jpg)
 
+go ahead and pick one out and copy the picture to the clipboard and then use the alexnet0.exe "paste from clipbaord"
+button and click run. You may have to click on run twice sometimes Movidius seems to have another image
+queued up for some weird reason. Anyhow, when i tried that I got this:
+![graph loaded](images/image3.jpg)
 
+Even thought the picutre got sort of stretched it seemed to go OK, wow, so cool.
 
+## Wrap up and Next Steps:
+Well, if you got this far without any problems, congratulations !
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Check out some of the other sub-folders in this git for more examples and how to's on how to install
+Caffe on windows and how to build things.
 
