@@ -45,7 +45,7 @@ here for a minute. When it's done gyrating you will get this error message.
 ![alexnet open first time](images/noinstalled.jpg)
 
 That's OK, we are going to fix it now. Go to good old computer->manage->device manager and you should see this 
-device in there: 
+device in there:
 ![vsc loopback device](images/vscloopback.jpg)
 
 Notice the devices labeled "VSC Loopback Device", that is what Windows thinks it is right now, don't ask me why.
@@ -59,11 +59,11 @@ Again pick the second option that says "Let me pick from a list of device driver
 Now you will see this:
 ![browse device](images/browse3.jpg)
 
-Pick the Universal Serial Bus devices option. Now you will get this screen: 
+Pick the Universal Serial Bus devices option. Now you will get this screen:
 ![browse device](images/browse4.jpg)
 
-on my computer there was just the one choice, if you have others, ignore those and pick "WinUSB Device" from
-the list and click next. You will get a warning message: 
+On my computer there was just the one choice, if you have others, ignore those and pick "WinUSB Device" from
+the list and click next. You will get a warning message:
 ![warning will robinson](images/warning.jpg) 
 
 click Yes (but don't blame me if disaster strikes, proceed at your own risk !).
