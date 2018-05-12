@@ -82,7 +82,7 @@ If that does not work you may need a reboot.
 Assuming things worked and you got the "NCS Device opened normally."  message in alexnet0.exe program, then you can
 double check this new device and go to ye ole computer->manage->device manager and look for this, select the 
 WinUsb Device, right click and pick properties and now you can check the Hardware ID's and see that they changed:
-![USB Device properties](images/devices2.jpg)
+![USB Device properties](images/properties2.jpg)
 
 You can see now the new ID's are (VID=03E7 PID=F63B) a different device, this is the Myriad2 device.
 If you click close it will close that one and the booter upper one will come back.
