@@ -64,6 +64,7 @@ Pick the Universal Serial Bus devices option. Now you will get this screen:
 
 On my computer there was just the one choice, if you have others, ignore those and pick "WinUSB Device" from
 the list and click next. You will get a warning message:
+
 ![warning will robinson](images/warning.jpg) 
 
 click Yes (but don't blame me if disaster strikes, proceed at your own risk !).
