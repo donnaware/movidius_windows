@@ -96,6 +96,34 @@ From now on, you don't have to go through that junk. From now on, you should be 
 into your PC and open the alexnet0.exe or other Windows apps from this git and it should work straight away
 without all the fiddling.
 
+## Step 3:
+Now that we got through all that install hassle, we can actually start having some fun. Assuming everything went OK
+so far you should see this on your alexnet0.exe program:
+![Movidius waiting](images/status.jpg)
+
+The next step is to load the graph file into the Movidius, if you downloaded the alexnet0/release from this git
+there should be a file called "graph" is the same folder as alexnet0.exe (it's a big file about 119MB).
+Now click on the button "load graph" and you show see this:
+![graph loaded](images/loaded.jpg)
+
+Now we are ready to recognize stuff. Flip over to the tab labeled "Image" and you will see this screen:
+![graph loaded](images/image1.jpg)
+
+If you click on the button labeled "run" at the top bar or in the tab area then the result shold be
+![graph loaded](images/image2.jpg)
+
+Yeah, the Movidius got the answer right !!! yippee.  For this test program you can load different pictures in
+by either clicking on the "load new image" button (it only can load BMP's right now) or you can copy any picture
+into the clipboard and past it in.  the picture on the left will show the original picutre shrunk down and then
+the picture on the right is that picture re-sampled down. For this demo it will only be able to use 227 x 227 
+pixel resolution so it will re-size everything to that.
+
+
+
+
+
+
+
 
 
 
