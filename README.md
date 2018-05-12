@@ -55,19 +55,18 @@ now just right click on that thing and pick "Update Device Driver" and you shoul
 Pick the SECOND Option labeled "Browse my computer for driver software and you will get this:
 ![browse device](images/browse2.jpg)
 
-again pick the second option that says "Let me pick from a list of device drivers on my computer".
-
-Now you will see this: 
+Again pick the second option that says "Let me pick from a list of device drivers on my computer".
+Now you will see this:
 ![browse device](images/browse3.jpg)
 
-Picke the Universal Serial Bus devices option. Now you will get this screen: 
+Pick the Universal Serial Bus devices option. Now you will get this screen: 
 ![browse device](images/browse4.jpg)
 
 on my computer there was just the one choice, if you have others, ignore those and pick "WinUSB Device" from
 the list and click next. You will get a warning message: 
 ![warning will robinson](images/warning.jpg) 
 
-just click Yes (but don't blame me if disaster strikes, proceed at your own risk !).
+click Yes (but don't blame me if disaster strikes, proceed at your own risk !).
 
 It will re-install the device using this new driver and if all goes well you get this: 
 ![installed](images/installed2.jpg) 
