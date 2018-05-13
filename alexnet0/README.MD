@@ -3,7 +3,7 @@ This program can be used to test out the Movidius Neural Compute Stick on a Wind
 [AlexNet](https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet) network can be used for image classification.
 
 If you have not already done so, first get your Movidius stick set up on your Windows computer by following the 
-instructions in the top level of this git [GitHub](http://github.com/movidius_windows).
+instructions in the top level of this git [Movidius Windows GitHub](https://github.com/donnaware/movidius_windows).
 
 ## How to Run the program
 If you want to just run the program without compiling it, just download these files into a folder and run it,
