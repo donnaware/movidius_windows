@@ -22,7 +22,8 @@ and when you go to computer->manage->device manager you should see an item in th
 Right click on the Winusb device and display properties, the hardware ID;s should be these 
 ![USB Device properties](images/properties1.jpg)
 
-If all that worked OK, then download the test alexnet0 test app, that app uses a pre-compiled graph file
+
+If all that worked OK, then download the test [alexnet0 test app](alexnet0/release), that app uses a pre-compiled graph file
 which contains the "smarts" of the app. You can compile graph files yourself if you go to the caffe sub-folder of this git.
 
 
