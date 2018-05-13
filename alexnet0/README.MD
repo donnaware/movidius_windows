@@ -16,7 +16,7 @@ make sure all these files are in the same folder:
  categories.csv
 
 
-# How Make the program
+## How Make the program
 You can compile this program using Borland BCB6. If you do not have that compiler you can try porting 
 it over to something else, it is pretty basic and it should run on just about any Windows compiler. The
 source code is in  [GitHub](http://github.com/movidius_windows/alexnet0/src)
