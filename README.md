@@ -1,8 +1,11 @@
-# movidius_windows
+# Movidius Windows
 How to use the Movidius Neural Compute Stick on Windows
 
 Yes, it is possible to use the Movidius Neural Compute Stick (https://developer.movidius.com/) on windows.
-The standard SDK for it is for Ubuntu or Raspian but with a little fiddling you can get it to work, here's how.
+The standard SDK for it is for Ubuntu or Raspian but with a little fiddling you can get it to work, here's how. 
+
+This tutorial will get your stick set up on a Windows computer with the right drivers using a simple test program,
+the alexnet0.exe. To get other aspects working see, the various sub-folders in this git.
 
 
 ## Step 1:
