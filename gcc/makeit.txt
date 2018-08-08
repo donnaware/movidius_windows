@@ -1,0 +1,16 @@
+install mingw-64-install.exe from here: https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/
+
+run cmd.exe
+
+
+PATH=C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin
+
+cd C:\Dev1\movidius\ncsdk\gcc
+
+gcc -m64 -c mvnc_api.c common.c usb_boot.c usb_link_vsc.c
+
+gcc -shared -o mvnc_api.dll  mvnc_api.o common.o usb_boot.o usb_link_vsc.o libusb_64.a -Wl,--out-implib,mvnc_api.a
+
+
+
+
